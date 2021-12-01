@@ -1,7 +1,7 @@
 # About
 This project was created for Kompetegram OpenAPI Challenge. For fun I also created options to enable `cache` and `cheat`.
 
-`cache` work by saving the output on first run to a dictionary, then return it immediately if it were within the last ` 5 minutes`
+`cache` work by saving the output on first run to a dictionary, then return it immediately upon request if it were within the last ` 5 minutes`
 
 `cheat` needs cache to be turned on, it cached the `/fakultas-prodi` method.
 
@@ -25,6 +25,6 @@ npm start
 To run the code without the cache and cheat options and checks:
 ```
 npm init
-npm pure
+npm run pure
 ```
 Please note that cache and cheat were turned off by default on `server.js` this won't make much impact.
