@@ -7,7 +7,7 @@ This project was created for Kompetegram OpenAPI Challenge. For fun I also creat
 
 For performance I use restana as my framework and pure mongodb.
 # How to run
-Before running the code make sure you set up `.env` file, it shoud look something like this
+Before running the code make sure you set up `.env` file, it should look something like this:
 
 ```
 DB_USER=your_username
