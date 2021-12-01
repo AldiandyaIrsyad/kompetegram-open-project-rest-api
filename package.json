@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.2.0",
+    "restana": "^4.9.2"
+  },
+  "name": "rest-api-restana",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "pure": "node server_pure.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
